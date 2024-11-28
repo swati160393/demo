@@ -91,3 +91,36 @@ BUILD SUCCESS
 Total time:  39.656 s
 Finished at: 2024-11-29T02:40:06+05:30
 ------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+Step-4 : Create Git repository with locally created source code
+-----------------------------------------------------------------------
+Step A: Install Git
+
+Download and Install Git from the official site: https://git-scm.com/
+Once installed, you can verify it by running the following command in your terminal:
+git --version
+
+Step B: Install GitHub Extension 
+Visual Studio Code has a GitHub Pull Requests and Issues extension that helps manage repositories directly within VS Code. To install it
+
+Step C: Set Up Git Credentials 
+Open VS Code and launch the Terminal (Ctrl + ~).
+Configure your Git username and email using:
+
+git config --global user.name "Your GitHub Username"
+git config --global user.email "your-email@example.com"
+
+Step D: Log in to GitHub via Visual Studio Code
+
+Open VS Code and navigate to the Source Control view (Ctrl + Shift + G).
+If you have a project already initialized with Git, you should see Git options in the source control panel.
+
+Click Sign in to GitHub.A GitHub login page will open in your browser. Log in to your GitHub account and authorize VS Code.
+
+Step E: Push to a Repository
+
+Push your local changes to GitHub:
+After setting up your local repository, you can push your changes using the Source Control tab in VS Code.
+When you push or pull from GitHub, if it's your first time, VS Code will ask you to authenticate. Simply follow the prompts for OAuth or enter your personal access token when asked for credentials.
