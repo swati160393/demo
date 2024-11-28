@@ -124,3 +124,16 @@ Step E: Push to a Repository
 Push your local changes to GitHub:
 After setting up your local repository, you can push your changes using the Source Control tab in VS Code.
 When you push or pull from GitHub, if it's your first time, VS Code will ask you to authenticate. Simply follow the prompts for OAuth or enter your personal access token when asked for credentials.
+
+-----------------------------------------------------------------------
+Step-5 : Clone repo and run in your local machine
+-----------------------------------------------------------------------
+Follow previous steps to do the required setup in your machine in order to run the tests
+
+Clone the repo using : git clone "https://github.com/swati160393/demo.git"
+
+Run the code as explain in previous steps
+
+
+Happy Testing :)
+Swati Jadhav
